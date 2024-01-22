@@ -34,6 +34,14 @@ h3 {
   color: red;
 }
 
+i {
+  padding: 12px;
+  display: inline-block;
+  font-size: 24px;
+  background-color: white;
+  text-align: center;
+}
+
 .discount {
   background-color: red;
   display: inline-block;
@@ -44,6 +52,12 @@ h3 {
   background-color: #008000;
   display: inline-block;
   padding: 5px;
+}
+
+.heart {
+  position: absolute;
+  right: 0;
+  top: 10px;
 }
 
 .info > span {
