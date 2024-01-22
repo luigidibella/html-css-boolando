@@ -9,6 +9,28 @@ body {
   background-color: white;
 }
 
+main {
+  padding: 50px 0;
+}
+
 .container {
+  display: flex;
+  max-width: 80%;
+  margin: 0 auto;
+  gap: 20px;
+  flex-wrap: wrap;
   background-color: grey;
+}
+
+.product {
+  width: calc(( 100% - 40px ) / 3);
+}
+
+div.photo {
+  position: relative;
+}
+
+.photo-1 {
+  width: 100%;
+  display: block;
 }
